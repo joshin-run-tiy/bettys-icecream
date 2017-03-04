@@ -1,0 +1,44 @@
+* {
+  border: 1px solid blue;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+body {
+  margin: 0px;
+}
+
+nav {
+  
+}
+
+header {
+  padding-top: 100px;
+}
+
+#banner--text {
+  font-size: 4em;
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+/*Nicks Clearfix Hack
+  http://nicolasgallagher.com/micro-clearfix-hack/
+*/
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
