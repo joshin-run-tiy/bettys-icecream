@@ -83,6 +83,11 @@ ul {
   text-align: center;
   border: 5px dotted pink;
   margin: 0px auto;
+  margin-bottom: 20px;
+  font-family: tahoma;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  /*font-color: yellow;*/
 }
 
 #logo {
@@ -143,4 +148,10 @@ ul {
 
 a {
   text-decoration:none;
+}
+
+test-containers {
+  border: 1px solid blue;
+  box-sizing: border-box;
+  display: block;
 }
