@@ -8,9 +8,9 @@ Your Mission: Your mission is to build a homepage for your local ice cream shop.
 #tabular data (calories, flavors)
 
 ###To Do
-#shop's name
+[x]#shop's name
 #a brief history (may use lorem ipsum)
-#a logo (use an image that is licensed as modifiable, e.g. google image search, "Tools" --> "Usage Rights" --> "Labeled for noncommercial reuse with modification")
+[x]#a logo (use an image that is licensed as modifiable, e.g. google image search, "Tools" --> "Usage Rights" --> "Labeled for noncommercial reuse with modification")
 #the store's hours and
 #contact information
 #5 flavors
