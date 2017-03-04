@@ -3,14 +3,31 @@
 }*/
 
 html {
-  border: 3px dotted purple;
+  /*border: 3px dotted purple;*/
+  margin: 0px auto;
 }
 
-img {
+.banner {
     display: block;
-    margin: auto;
-    width: 50%;
-    border: 10px solid white;
+    width: 70%;
+    /*border: 10px solid #61C6EE;*/
+    margin: 0px auto;
+}
+
+
+
+.banner--container {
+  /*border: 1px solid blue;*/
+  width: 80%;
+  height: 80%;
+  margin: 0px auto;
+}
+
+.logo--container {
+  /*border: 1px solid blue;*/
+  width: 9%;
+  height: 80%;
+  margin: 0px auto;
 }
 
 /*body {
@@ -18,18 +35,36 @@ img {
 }*/
 
 body {
-    background-color: pink;
+    background-color: #fff;
     padding-right: 10%;
     padding-left: 10%;
-    padding-top: 7%;
+    padding-top: 6%;
     display: block;
-    border: 3px solid blue;
+    /*border: 3px solid blue;*/
     margin-bottom: 0px auto;
 }
 
 nav {
   width: 100%;
   height: 50px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 5px auto;
+}
+
+.nav-menu {
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    /*float: left;*/
+    /*margin-right: 25px;
+    margin-top: 16px;*/
+    font-size: 1.35em;
+    font-family: cursive;
+    font-weight: bolder;
 }
 
 /*header {
@@ -39,7 +74,46 @@ nav {
 #banner--text {
   font-size: 4em;
   text-align: center;
-  border: 5px dotted limegreen;
+  border: 5px dotted pink;
+  margin: 0px auto;
+}
+
+#logo {
+  float: left;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  height: 70px;
+  /*margin: 5px 20px 5px 20px;*/
+  /*box-sizing: border-box;*/
+  /*display: block;*/
+  /*margin-left: 30px;*/
+  margin-top: -40px;
+  position: relative;
+  width: 70px;
+}
+
+/*#logo-2 {
+  float: left;
+  border: 4px solid blue;
+  border-radius: 50%;
+  height: 70px;
+  /*margin: 5px 20px 5px 20px;*/
+  /*box-sizing: border-box;*/
+  /*display: block;*/
+  /*margin-left: 30px;
+  margin-top: -40px;
+  position: relative;
+}*/
+
+.logo-div {
+  width: 40%;
+  height: 70px;
+  /*border: 1px solid blue;*/
+  /*display: block;*/
+  box-sizing: border-box;
+  /*padding-bottm: 30px;*/
+  position: relative;
+  margin: 0px auto;
 }
 
 .clear {
@@ -58,4 +132,8 @@ nav {
 
 .cf:after {
   clear: both;
+}
+
+a {
+  text-decoration:none;
 }
