@@ -19,7 +19,7 @@ Your Mission: Your mission is to build a homepage for your local ice cream shop.
   Pistachio , 150, sugar free / link to wiki
   pepermint mint , 140 / link to wiki
   rocky road, 150 / link to wiki
-
+---------------
 When done, submit both the GitHub Repo Url (github.com/[username]/[repo])
 and the final GitHub Pages url ([username].github.io/[repo]).
 
@@ -27,21 +27,21 @@ and the final GitHub Pages url ([username].github.io/[repo]).
 
 Skilled Sorcerers and Wise Wizards
 
-Your spouse is actually the person who introduced you to Betty. Apparently in a conversation between them Betty also mentioned that she'd really like to see every other flavor on the menu alternate its background color (commonly called "zebra striping") for easier reading, but she never mentioned it to you when you were going over requirements. You want to make her day and give her ice cream flavors a bit of zebra flavoring.
+Your spouse is actually the person who introduced you to Betty. Apparently in a conversation between them Betty also mentioned that she'd really like to see
 
-Highlight rows of the table when a user hovers over them
-If a user clicks the row, make the row stay highlighted even after they stop hovering over the row
+[] every other flavor on the menu alternate its background color (commonly called "zebra striping") for easier reading, but she never mentioned it to you when you were going over requirements. You want to make her day and give her ice cream flavors a bit of zebra flavoring........
+[] Highlight rows of the table when a user hovers over them
+[] If a user clicks the row, make the row stay highlighted even after they stop hovering over the row
 Wise Wizards
 
 In casual conversation Betty mentioned to you that when she was checking out your LinkedIn she stumble upon this Iron Yard page and she really loves the layout.
 
 In particular, she loves the:
-
-big image across the top - "Wouldn't a banana split look better than a cityscape?"
-circular logo that only half crosses the cityscape
-summary information to the left
-detailed information to the right
-legible width of the two columns
-spacing and font size
-social link in the lower-right (she didn't give you a twitter or facebook account, so you can just mock it out for demo purposes)
-She would really love it if her shop's page has the same layout. So put a bow on it and make her fall in love with your work 💝
+[x]#big image across the top - "Wouldn't a banana split look better than a cityscape?"
+[] circular logo that only half crosses the cityscape
+[] summary information to the left
+[] detailed information to the right
+[] legible width of the two columns
+[] spacing and font size
+[] social link in the lower-right (she didn't give you  a twitter or facebook account, so you can just mock it out for demo purposes)
+[] She would really love it if her shop's page has the same layout. So put a bow on it and make her fall in love with your work 💝
