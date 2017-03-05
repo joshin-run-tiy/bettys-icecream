@@ -88,6 +88,8 @@ ul {
   padding-bottom: 10px;
   padding-top: 5px;
   /*font-color: yellow;*/
+  /*background-color: pink;*/
+  border: 5px dashed pink;
 }
 
 #logo {
@@ -150,8 +152,229 @@ a {
   text-decoration:none;
 }
 
-test-containers {
+/*.column--left {
+  border: 1px solid blue;
+
+  box-sizing: border-box;
+  display: block;
+  width: 300px;
+  height: 350px;
+  float: none;
+  margin: 0px auto;
+  margin: 0px;
+  position: absolute;
+  vertical-align: baseline;
+}*/
+/*.column--right {
   border: 1px solid blue;
   box-sizing: border-box;
   display: block;
+  width: 300px;
+  height: 350px;
+  float: none;
+
+  margin: 0px auto;
+  margin: 0px;
+
+  vertical-align: baseline;
+}*/
+
+main {
+  /*background-color: #F3EF7D;*/
+  /*position: relative;;*/
+  overflow: hidden;
+  height: 500px;
+  diplay: block;
+  box-sizing: border-box;
+  margin: 0px auto;
+}
+
+.main--left {
+  float: right;
+  height: 500px;
+  width: 48%;
+  overflow: hidden;
+  margin: 0px auto;
+  display: block;
+  padding: 0px;
+}
+
+.main--right {
+  float: left;
+  height: 500px;
+  width: 48%;
+  overflow: hidden;
+  margin: 0px auto;
+  display: block;
+  /*padding: 20px;*/
+  padding: 0px;
+}
+
+
+.main--right_upper {
+  /*float: right;*/
+  height: 50%;
+  width: 60%;
+  display: block;
+  float: right;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: auto;
+  /*background-color: red;*/
+}
+
+/*.main--right_middle {
+  /*float: right;
+  height: 80px;
+  width: 65%;
+  display: block;
+  float: right;
+  box-sizing: border-box;
+  overflow: hidden;
+}*/
+
+.main--right_lower {
+  /*float: left;*/
+  height: 200px;
+  width: 60%;
+  display: block;
+  box-sizing: border-box;
+  overflow: hidden;
+  float: right;
+  margin-top: 20px;
+  margin: auto;
+  /*background-color: yellow;*/
+  line-height: 75%;
+  text-align: center;
+  /*border: 1px dashed powderblue;*/
+  padding: 20px;
+}
+
+
+.main--left_upper {
+  /*float: left;*/
+  height: 150px;
+  width: 80%;
+  display: block;
+  float: left;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 15px;
+  /*background-color: orange;*/
+  /*border: 1px dashed yellow;*/
+  font-size: 0.855em;
+  border: 1px solid #000;
+}
+
+.main--left_middle {
+  position: relative;
+  height: 100px;
+  width: 85%;
+  display: block;
+  /*float: left;*/
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 20px auto;
+  /*background-color: lavender;*/
+  font-size: 0.855em;
+  /*border: 1px dashed orange;*/
+  /*border: 1px solid #000;*/
+
+}
+.main--left_lower {
+  position: relative;
+  height: 120px;
+  width: 85%;
+  display: block;
+  /*float: left;*/
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0px auto;
+  /*background-color: purple;*/
+  /*border: 1px dashed pink;*/
+  font-size: 0.855em;
+  border: 1px solid #000;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+
+/*.container {
+    /* this clears the float
+
+    display: block;
+    border: 1px solid blue;
+    height: 400px;
+    width: 50%;
+    box-sizing: border-box;
+}*/
+
+table {
+  border: 0px;
+  border-color: #fff;
+  text-align: left;
+  font-size: 16px;
+  width: 80%;
+  margin: auto;
+  border: 1px solid;
+}
+
+/*.flavors {
+  font-size: 8px;
+  text-align: left;
+}*/
+
+#all-ice-cream {
+  padding: 10px;
+}
+
+.thirty-five {
+  text-align: center;
+  font-size: 2em;
+  padding: 0px;
+  margin: 5px 0px 5px 0px;
+}
+
+.sugar-free {
+  text-align: center;
+  font-size: 1em;
+}
+
+footer {
+    height: 95px;
+    width: 100%;
+    padding: 20px 0px;
+    clear: both;
+    overflow: hidden;
+    background-color: #D4D0CB;
+    color: #007EA5;
+    margin-top: 8px;
+    font-family: arial;
+}
+
+.low--footer {
+    height: 12px;
+    width: 100%;
+    padding: 20px 0px;
+    clear: both;
+    overflow: hidden;
+    background-color: palegreen;
+    color: #fff;
+    margin-top: 0px;
+    font-family: arial;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: purple;
 }
