@@ -81,15 +81,17 @@ ul {
 #banner--text {
   font-size: 4em;
   text-align: center;
-  border: 5px dotted pink;
+  border: 5px solid ;
   margin: 0px auto;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-family: tahoma;
   padding-bottom: 10px;
   padding-top: 5px;
   /*font-color: yellow;*/
-  /*background-color: pink;*/
-  border: 5px dashed pink;
+  background-color: pink;
+  color: #fff;
+  font-family: "Gill Sans", Arial, sans-serif;
+  border: 2px solid palegreen;
 }
 
 #logo {
@@ -214,7 +216,7 @@ main {
 .main--right_upper {
   /*float: right;*/
   height: 50%;
-  width: 60%;
+  width: 55%;
   display: block;
   float: right;
   box-sizing: border-box;
@@ -253,10 +255,10 @@ main {
 
 .main--left_upper {
   /*float: left;*/
-  height: 150px;
-  width: 80%;
+  height: 200px;
+  width: 100%;
   display: block;
-  float: left;
+  /*float: left;*/
   box-sizing: border-box;
   overflow: hidden;
   margin: auto;
@@ -264,28 +266,31 @@ main {
   /*background-color: orange;*/
   /*border: 1px dashed yellow;*/
   font-size: 0.855em;
-  border: 1px solid #000;
+  /*border: 1px solid #000;*/
+
+  /*text-align: justify;*/
 }
 
 .main--left_middle {
   position: relative;
   height: 100px;
-  width: 85%;
+  width: 100%;
   display: block;
   /*float: left;*/
   box-sizing: border-box;
   overflow: hidden;
   margin: 20px auto;
   /*background-color: lavender;*/
-  font-size: 0.855em;
+  font-size: 0.955em;
   /*border: 1px dashed orange;*/
   /*border: 1px solid #000;*/
+  padding: 2px;
 
 }
 .main--left_lower {
   position: relative;
-  height: 120px;
-  width: 85%;
+  height: 80px;
+  width: 100%;
   display: block;
   /*float: left;*/
   box-sizing: border-box;
@@ -293,8 +298,11 @@ main {
   margin: 0px auto;
   /*background-color: purple;*/
   /*border: 1px dashed pink;*/
-  font-size: 0.855em;
-  border: 1px solid #000;
+  font-size: 0.955em;
+  /*border: 1px solid #000;*/
+  /*padding-left: 20px;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .float-right {
@@ -347,6 +355,26 @@ table {
   font-size: 1em;
 }
 
+
+.float-left_img {
+    float: left;
+    margin: 5px 5px 3px 5px;
+}
+
+#our-story-pic {
+    width: 40%;
+    height: 40%;
+    vertical-align: baseline;
+    margin-right: 15px;
+}
+
+
+
+
+ul {
+  list-style-type: none;
+}
+
 footer {
     height: 95px;
     width: 100%;
@@ -377,4 +405,13 @@ a {
 
 a:hover {
   color: purple;
+}
+
+.main--text {
+  font-family: tahoma;
+
+}
+
+ul {
+  list-style-type: none;
 }

@@ -4,16 +4,17 @@
 #Your Mission: Your mission is to build a homepage for your local ice cream shop. In GitHub ensure your project name starts with "wk-01".
 #info page
 #animated gifts if desired
-[]a brief history (may use lorem ipsum)
-[]the store's hours and
-[]contact information
-[]#5 flavors
-  vanilla, 140,sugar free / link to wiki
-  neapolitan, 120, sugar free /link to wiki
-  Pistachio , 150, sugar free / link to wiki
-  pepermint mint , 140 / link to wiki
-  rocky road, 150 / link to wiki
-[]tabular data (calories, flavors)
+#[]a brief history (may use lorem ipsum)
+#[]the store's hours and
+#[x]contact information
+#[]#5 flavors
+#  vanilla, 140,sugar free / link to wiki
+#  neapolitan, 120, sugar free /link to wiki
+#  Pistachio , 150, sugar free / link to wiki
+#  pepermint mint , 140 / link to wiki
+#  rocky road, 150 / link to wiki
+#[#x]tabular data (calories, flavors)
+[] social link in the lower-right (she didn't give you  a twitter or facebook account, so you can just mock it out for demo purposes)
 [] If a user clicks the row, make the row stay highlighted even after they stop hovering over the row
   <!-- Wise Wizards -->
 #[x]#a logo (use an image that is licensed as modifiable, e.g. google image search, "Tools" --> "Usage Rights" --> "Labeled for noncommercial reuse with modification")
@@ -42,5 +43,5 @@ In particular, she loves the:
 [] detailed information to the right
 [] legible width of the two columns
 [] spacing and font size
-[] social link in the lower-right (she didn't give you  a twitter or facebook account, so you can just mock it out for demo purposes)
+
 #[x] She would really love it if her shop's page has the same layout. So put a bow on it and make her fall in love with your work 💝
