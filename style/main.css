@@ -3,95 +3,83 @@
 }*/
 
 html {
-  /*border: 3px dotted purple;*/
-  margin: 0px auto;
+  margin-top: 0px auto;
 }
 
 .banner {
     display: block;
     width: 70%;
-    /*border: 10px solid #61C6EE;*/
     margin: 0px auto;
 }
 
-
-
 .banner--container {
-  /*border: 1px solid blue;*/
   width: 80%;
   height: 80%;
   margin: 0px auto;
 }
 
 .logo--container {
-  /*border: 1px solid blue;*/
   width: 9%;
   height: 80%;
   margin: 0px auto;
 }
 
-/*body {
-  margin: 0px;
-}*/
-
 body {
-    background-color: #fff;
-    padding-right: 10%;
-    padding-left: 10%;
-    padding-top: 6%;
-    display: block;
-    /*border: 3px solid blue;*/
-    margin-bottom: 0px auto;
+  background-color: #fff;
+  padding-right: 10%;
+  padding-left: 10%;
+  display: block;
+  margin-bottom: 0px auto;
+  margin-top: 0px auto;
+}
+
+header {
+  border: 5px;
+  border-color: pink;
+  border-style: double;
+  margin: 10px auto;
 }
 
 nav {
   width: 100%;
   height: 50px;
-  /*text-align: center;*/
-  /*border: 1px solid blue;*/
-  margin: 0px auto;
+  color: powderblue;
+  margin: 40px auto;
+  color: #489BC4;
 }
 
 ul {
-  /*list-style-type: none;*/
   margin: 8px;
   padding: 0px;
-  /*border: 1px solid orange;*/
   text-align: center;
 }
 
 .nav-menu {
-    /*text-align: center;*/
-    color: #000;
-    text-decoration: none;
-    /*float: left;*/
-    /*margin-right: 25px;
-    margin-top: 16px;*/
-    font-size: 1.35em;
-    font-family: cursive;
-    font-weight: bolder;
-    margin: 0px auto;
-    padding: 0px;
+  color: #000;
+  text-decoration: none;
+  font-size: 1.35em;
+  font-family: cursive;
+  font-weight: bolder;
+  margin: 0px auto;
+  padding: 0px;
+  color: #DD6E6A;
 }
-
-/*header {
-  padding-top: 100px;
-}*/
 
 #banner--text {
   font-size: 4em;
   text-align: center;
   border: 5px solid ;
   margin: 0px auto;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
   font-family: tahoma;
   padding-bottom: 10px;
   padding-top: 5px;
-  /*font-color: yellow;*/
-  background-color: pink;
-  color: #fff;
+  background-color: palegreen;
+  color: mediumpurple;
   font-family: "Gill Sans", Arial, sans-serif;
-  border: 2px solid palegreen;
+  border: 5px;
+  border-color: pink;
+  border-bottom-style: double;
 }
 
 #logo {
@@ -99,35 +87,15 @@ ul {
   border: 4px solid #fff;
   border-radius: 50%;
   height: 70px;
-  /*margin: 5px 20px 5px 20px;*/
-  /*box-sizing: border-box;*/
-  /*display: block;*/
-  /*margin-left: 30px;*/
   margin-top: -40px;
   position: relative;
   width: 70px;
 }
 
-/*#logo-2 {
-  float: left;
-  border: 4px solid blue;
-  border-radius: 50%;
-  height: 70px;
-  /*margin: 5px 20px 5px 20px;*/
-  /*box-sizing: border-box;*/
-  /*display: block;*/
-  /*margin-left: 30px;
-  margin-top: -40px;
-  position: relative;
-}*/
-
 .logo-div {
   width: 40%;
   height: 70px;
-  /*border: 1px solid blue;*/
-  /*display: block;*/
   box-sizing: border-box;
-  /*padding-bottm: 30px;*/
   position: relative;
   margin: 0px auto;
 }
@@ -154,47 +122,21 @@ a {
   text-decoration:none;
 }
 
-/*.column--left {
-  border: 1px solid blue;
-
-  box-sizing: border-box;
-  display: block;
-  width: 300px;
-  height: 350px;
-  float: none;
-  margin: 0px auto;
-  margin: 0px;
-  position: absolute;
-  vertical-align: baseline;
-}*/
-/*.column--right {
-  border: 1px solid blue;
-  box-sizing: border-box;
-  display: block;
-  width: 300px;
-  height: 350px;
-  float: none;
-
-  margin: 0px auto;
-  margin: 0px;
-
-  vertical-align: baseline;
-}*/
-
 main {
-  /*background-color: #F3EF7D;*/
-  /*position: relative;;*/
   overflow: hidden;
   height: 500px;
   diplay: block;
   box-sizing: border-box;
   margin: 0px auto;
+  border: 5px;
+  border-color: pink;
+  border-style: double;
 }
 
 .main--left {
   float: right;
   height: 500px;
-  width: 48%;
+  width: 58%;
   overflow: hidden;
   margin: 0px auto;
   display: block;
@@ -204,105 +146,77 @@ main {
 .main--right {
   float: left;
   height: 500px;
-  width: 48%;
+  width: 38%;
   overflow: hidden;
   margin: 0px auto;
   display: block;
-  /*padding: 20px;*/
   padding: 0px;
 }
 
 
 .main--right_upper {
-  /*float: right;*/
   height: 50%;
-  width: 55%;
+  width: 73%;
   display: block;
   float: right;
   box-sizing: border-box;
   overflow: hidden;
   margin: auto;
-  /*background-color: red;*/
+  color: purple;
+  margin-top: 40px;
 }
 
-/*.main--right_middle {
-  /*float: right;
-  height: 80px;
-  width: 65%;
-  display: block;
-  float: right;
-  box-sizing: border-box;
-  overflow: hidden;
-}*/
-
 .main--right_lower {
-  /*float: left;*/
   height: 200px;
-  width: 60%;
+  width: 72%;
   display: block;
   box-sizing: border-box;
   overflow: hidden;
   float: right;
   margin-top: 20px;
   margin: auto;
-  /*background-color: yellow;*/
   line-height: 75%;
   text-align: center;
-  /*border: 1px dashed powderblue;*/
   padding: 20px;
+  color: purple;
 }
 
 
 .main--left_upper {
-  /*float: left;*/
   height: 200px;
-  width: 100%;
+  width: 85%;
   display: block;
-  /*float: left;*/
   box-sizing: border-box;
   overflow: hidden;
   margin: auto;
-  margin-top: 15px;
-  /*background-color: orange;*/
-  /*border: 1px dashed yellow;*/
-  font-size: 0.855em;
-  /*border: 1px solid #000;*/
-
-  /*text-align: justify;*/
+  margin-top: 40px;
+  font-size: 0.875em;
 }
 
 .main--left_middle {
   position: relative;
   height: 100px;
-  width: 100%;
+  width: 85%;
   display: block;
-  /*float: left;*/
   box-sizing: border-box;
   overflow: hidden;
   margin: 20px auto;
-  /*background-color: lavender;*/
   font-size: 0.955em;
-  /*border: 1px dashed orange;*/
-  /*border: 1px solid #000;*/
   padding: 2px;
-
+  color: purple;
 }
 .main--left_lower {
   position: relative;
   height: 80px;
-  width: 100%;
+  width: 85%;
   display: block;
-  /*float: left;*/
   box-sizing: border-box;
   overflow: hidden;
   margin: 0px auto;
-  /*background-color: purple;*/
-  /*border: 1px dashed pink;*/
   font-size: 0.955em;
-  /*border: 1px solid #000;*/
-  /*padding-left: 20px;*/
   padding-top: 10px;
   padding-bottom: 10px;
+  color: purple;
 }
 
 .float-right {
@@ -313,17 +227,6 @@ main {
   float: left;
 }
 
-
-/*.container {
-    /* this clears the float
-
-    display: block;
-    border: 1px solid blue;
-    height: 400px;
-    width: 50%;
-    box-sizing: border-box;
-}*/
-
 table {
   border: 0px;
   border-color: #fff;
@@ -332,12 +235,9 @@ table {
   width: 80%;
   margin: auto;
   border: 1px solid;
+  background-color: #FFFF66;
+  color: brown;
 }
-
-/*.flavors {
-  font-size: 8px;
-  text-align: left;
-}*/
 
 #all-ice-cream {
   padding: 10px;
@@ -345,7 +245,7 @@ table {
 
 .thirty-five {
   text-align: center;
-  font-size: 2em;
+  font-size: 1em;
   padding: 0px;
   margin: 5px 0px 5px 0px;
 }
@@ -362,14 +262,11 @@ table {
 }
 
 #our-story-pic {
-    width: 40%;
-    height: 40%;
+    width: 36%;
+    height: 36%;
     vertical-align: baseline;
     margin-right: 15px;
 }
-
-
-
 
 ul {
   list-style-type: none;
@@ -377,26 +274,65 @@ ul {
 
 footer {
     height: 95px;
-    width: 100%;
-    padding: 20px 0px;
+    width: 99%;
     clear: both;
     overflow: hidden;
     background-color: #D4D0CB;
     color: #007EA5;
     margin-top: 8px;
     font-family: arial;
+    border: 5px;
+    border-color: pink;
+    border-style: double;
+    border-bottom: 0px auto;
+}
+
+.footer--left {
+  float: left;
+  height: 80px;
+  width: 40%;
+  overflow: hidden;
+  margin: 0px auto;
+  display: block;
+  padding-top: 10px;
+}
+
+.footer--right {
+  float: left;
+  height: 80px;
+  width: 50%;
+  overflow: hidden;
+  margin: 20px 0px 0px 20px;
+  display: block;
+  padding: 0px;
+  color: purple;
+  text-align: center;
+  font-family: "Gill Sans", Arial, sans-serif;
+}
+
+.social-media {
+  height: 55%;
+  width: 20%;
+  margin: 0px auto;
+  margin-top: 15px;
 }
 
 .low--footer {
     height: 12px;
-    width: 100%;
+    width: 99%;
     padding: 20px 0px;
     clear: both;
     overflow: hidden;
     background-color: palegreen;
     color: #fff;
-    margin-top: 0px;
-    font-family: arial;
+    margin: 0px auto;
+    text-align: center;
+    color: #E4726E;
+    font-family: "Gill Sans", Arial, sans-serif;
+    border: 5px;
+    border-top: 0px;
+    border-color: pink;
+    border-style: double;
 }
 
 a {
